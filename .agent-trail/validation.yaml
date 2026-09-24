@@ -1,0 +1,6 @@
+version: 1
+validation:
+  - name: unit
+    category: unit_test
+    command: ["node", "--test"]
+    timeout_seconds: 120
